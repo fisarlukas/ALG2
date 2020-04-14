@@ -2,19 +2,18 @@ package pkg05_shapes;
 
 /**
  *
- * @author CryHeroCZ
+ * @author Lukas Fisar
  */
 public class Circle extends Shape{ //extends - circle je typově kompatibilní s shape - Circle IS A Shape
 
     //data
     private double r;
 
-    //public void Circle(double r) {
-    private Circle(double r) {
+    Circle(double r) {
         this.r = r;
     }
 
-//    public void Circle(double d) {   --- tohle nejde, protože stejnej název
+//    public void Circle(double d) {   - tohle nejde, stejný název
 //        this.r d/2.0;
 //    }
     
@@ -36,8 +35,8 @@ public class Circle extends Shape{ //extends - circle je typově kompatibilní s
 
     @Override
     public String toString() {
-        //return "Circle{" + "r=" + r + '}';
-        return super.toString() + String.format(" r = %.2f", r);
+        return "Circle, r = " + r;
+        //return super.toString() + String.format(" r = %.2f", r);
     }
     
     @Override

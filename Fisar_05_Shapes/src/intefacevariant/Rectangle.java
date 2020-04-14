@@ -2,8 +2,8 @@ package intefacevariant;
 
 
 /**
- * Nemenny immutable object
- * @author CryHeroCZ
+ *
+ * @author Lukas Fisar
  */
 public class Rectangle implements ShapeInterface {
     //data

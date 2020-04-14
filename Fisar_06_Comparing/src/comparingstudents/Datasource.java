@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  *
- * @author Luky3
+ * @author Lukas Fisar
  */
 public class Datasource {
     private static Student[] data = {

@@ -1,15 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pkg05_shapes;
 
 import java.util.ArrayList;
 
 /**
  *
- * @author CryHeroCZ
+ * @author Lukas Fisar
  */
 public class Main {
 
@@ -45,14 +40,15 @@ public class Main {
         System.out.println("3.varianta");
         ArrayList<Shape> shapes3 = new ArrayList<>(); //dynamické pole objektů typu Shape
         //může obsahovat cokoli, co je typově kompatibilní s Shape (Shape, Circle, Rectangle - protože jsme tam psali extends)
-        //Shape s = new Rectangle(5,6);  --je ok, protože extended
-        //Rectangle r = new Shape(); -- není ok, protože není extended tímto směrem (funguje jen na jednu stranu)
+        //Shape s = new Rectangle(5,6);  - je ok, protože extended
+        //Rectangle r = new Shape(); - není ok, protože není extended tímto směrem (funguje jen na jednu stranu)
         shapes3.add(c1);
         shapes3.add(r1);
         shapes3.add(Circle.getInstanceR(2.6));
         double allArea3 = 0;
-        for (Shape shape : shapes3) {   //foreach - viz warpaul a předchozí seminárky
-             allArea3 += shape.computeArea();  //polymorfism - mnohotvárná - za různých okolnístí ukazuje na různé kódy (když tam bude rectangle-flákne tam computeArea z rectangle)
+        for (Shape shape : shapes3) {   //foreach
+             allArea3 += shape.computeArea();  //polymorfism - mnohotvárná
+             //- za různých okolností ukazuje na různé kódy (když tam bude rectangle, použije tam computeArea z rectangle)
         }
         System.out.println(allArea3);
     }

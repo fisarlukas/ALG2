@@ -2,9 +2,8 @@ package pkg05_shapes;
 
 /**
  *
- * @author lukas.fisar
+ * @author Lukas Fisar
  */
-
 
 public abstract class Shape{
     //data

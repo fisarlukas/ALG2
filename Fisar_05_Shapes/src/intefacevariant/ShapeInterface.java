@@ -7,7 +7,7 @@ package intefacevariant;
 
 /**
  *
- * @author Luky3
+ * @author Lukas Fisar
  */
 public interface ShapeInterface {
     

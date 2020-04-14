@@ -1,7 +1,10 @@
 package polynoms;
 
 import java.util.Arrays;
-
+/**
+ *
+ * @author Lukas Fisar
+ */
 public class Polynom {
     //data
     //5x3 + 3x2 + 6

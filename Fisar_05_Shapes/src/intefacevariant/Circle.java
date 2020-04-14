@@ -3,7 +3,7 @@ package intefacevariant;
 
 /**
  *
- * @author CryHeroCZ
+ * @author Lukas Fisar
  */
 public class Circle implements ShapeInterface{ //Circle je typově kompatibilní s ShapeInteface
 

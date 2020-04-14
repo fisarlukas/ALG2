@@ -2,12 +2,12 @@
 package pkg05_shapes;
 
 /**
- * Nemenny immutable object
- * @author CryHeroCZ
+ *
+ * @author Lukas Fisar
  */
 public class Rectangle extends Shape {
     //data
-    private double a;
+    double a;
     private double b;
     private double area; //vypocitana data
 
@@ -24,7 +24,8 @@ public class Rectangle extends Shape {
     public double getB() {
         return b;
     }
-//neni teď potřeba  -- druhá varianta
+    
+    //už není potřeba
     public double getArea() {
         return area;
     }

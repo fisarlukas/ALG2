@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author CryHeroCZ
+ * @author Lukas Fisar
  */
 public class Main {
 

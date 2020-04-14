@@ -1,5 +1,8 @@
 package polynoms;
-
+/**
+ *
+ * @author Lukas Fisar
+ */
 public class Polynoms {
 
     private Polynoms() { //object can not be created
